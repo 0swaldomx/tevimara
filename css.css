@@ -1,0 +1,140 @@
+body {
+	align-items: flex-start;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	font-family: Avant Garde, Ascent Pro, sans-serif, serif;
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 10px;
+}
+a:link {
+	text-decoration:none;
+	color: blue;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: blue;
+}
+h1 {
+	text-align: center;
+}
+hr{
+    height: 1px;
+    border: 0;
+    background-color: #c0c0c0;
+}
+.central-box {
+	width: 80%;
+	display: block;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 1px;
+	margin: 0 auto;
+	height: auto;
+}
+.image-central {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	height: auto;
+}
+.image-bottom {
+	width: 90%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding:1px 1px 1px 1px;
+	border: 1px solid #999999;
+}
+.box-columns {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.column {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;            
+}
+.column1 span,
+.column2 img {
+	margin-top: 10px;
+	width: 75%;
+	padding:1px 1px 1px 1px;
+	border: 1px solid #999999;
+}
+.box-columns-vertical {
+	width: 100%;
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+}
+.column-vertical {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.column-vertical img {
+	margin-top: 10px;
+	width: 75%;
+	padding:1px 1px 1px 1px;
+	border: 1px solid #999999;
+}
+.column-vertical p {
+	text-align: center;
+}
+.container {
+	display: flex;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5;
+	margin: 0 auto;
+	text-align: left;
+	vertical-align: top;
+	width: 100%;
+}
+.column {
+	width: 50%;
+}
+
+.fondo {
+	display: flex;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5;
+	margin: 0 auto;
+	text-align: left;
+	vertical-align: top;
+	width: 100%;
+}
+.fondoc {
+	width: 50%;
+}
+
+@media (max-width: 768px) {
+            .central-box {
+                width: 95%;
+            }
+            .box-columns,
+            .box-columns-vertical,
+            .icons-box,
+            .footer {
+                flex-direction: column;
+                align-items: center;
+            }
+            .column,
+            .column-vertical,
+            .footer-column {
+                width: 100%;
+            }
+        }
